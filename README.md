@@ -1,6 +1,6 @@
 # Stroke Rehab and Microsoft Kinect Project
 
-<h3><b>Luke Dubois, Anita Perr, Claire Kearney-Volpe and Eozin Che</b></h3><br/>
+<h5><b>Luke Dubois, Anita Perr, Claire Kearney-Volpe and Eozin Che</b></h5><br/>
 
 <b>Aims: </b> <br/>
 
