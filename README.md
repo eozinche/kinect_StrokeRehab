@@ -21,7 +21,7 @@ We are interested in using the Microsoft Kinect v2 to 1) develop game-like activ
 <br/>
 <b>Familiarization with Current Treatment (Completed by mid-August)</b><br/>
 
-During this initial Information gathering stage, we will speak with clinicians and observe OT and PT treatments done in inpatient and outpatient settings. We will meet with these clinicians at NYU and build out schematics/user flows based on our observations (see attached example). <br/><br/>
+During this initial Information gathering stage, we will speak with clinicians and observe OT and PT treatments done in inpatient and outpatient settings. We will meet with these clinicians at NYU and build out schematics/user flows based on our observations. <br/><br/>
 
 <b>Product Development (Completed by August 15th)</b><br/>
 
