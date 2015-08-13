@@ -23,7 +23,7 @@ We are interested in using the Microsoft Kinect v2 to 1) develop game-like activ
 
 During this initial Information gathering stage, we will speak with clinicians and observe OT and PT treatments done in inpatient and outpatient settings. We will meet with these clinicians at NYU and build out schematics/user flows based on our observations (see attached example). <br/><br/>
 
-</b>Product Development (Completed by August 15th)</b><br/>
+<b>Product Development (Completed by August 15th)</b><br/>
 
 Prototyping/Development of application will begin once we have completed researching. The application will be built in openFrameworks, and client joint position data will be gathered using the Kinect.<br/><br/>
 
