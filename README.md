@@ -19,14 +19,14 @@ We are interested in using the Microsoft Kinect v2 to 1) develop game-like activ
 
 <b>For the project we propose four main phases that have distinct timelines and goals. At this time, they are as follows:</b><br/>
 <br/>
-<b>Familiarization with Current Treatment (Completed by mid-August)</b><br/>
+<b>Familiarization with Current Treatment </b><br/>
 
 During this initial Information gathering stage, we will speak with clinicians and observe OT and PT treatments done in inpatient and outpatient settings. We will meet with these clinicians at NYU and build out schematics/user flows based on our observations. <br/><br/>
 
-<b>Product Development (Completed by August 15th)</b><br/>
+<b>Product Development </b><br/>
 
 Prototyping/Development of application will begin once we have completed researching. The application will be built in openFrameworks, and client joint position data will be gathered using the Kinect.<br/><br/>
 
-<b>Clinical Research (Completed by September 15th)</b><br/>
+<b>Clinical Research </b><br/>
 
 Once the software is built, we will apply for IRB approval and build in a HIPPA compliant server portion that will allow for in-home client data to be recorded and accessible by PT/OTs. Our goals here are 1) to create a database containing patient data from OT and PT therapies and 2) interview clinicians and clients about their experiences and implement a quantitative measure of its effectiveness.<br/><br/>
