@@ -19,7 +19,6 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
-		void synthPlay();
 		
 		ofxKinectCommonBridge kinect;
 		ofShader yuvRGBShader;
@@ -33,7 +32,7 @@ class ofApp : public ofBaseApp{
 		ofTrueTypeFont	verdana30;
 		ofTrueTypeFont	verdana60;
 		float hue = fmodf(ofGetElapsedTimef() * 80, 255);
-		//// adding videoGrabber camera input///////////////////
+		//// 08/25/2014 -- adding videoGrabber camera input///////////////////
 		ofVideoGrabber 		vidGrabber;
 		unsigned char * 	videoInverted;
 		ofTexture			videoTexture;
@@ -41,36 +40,13 @@ class ofApp : public ofBaseApp{
 		int 				camHeight;
 		////// adding images////////////////////////////////////////
 
-
-		ofImage violinist;
-		ofImage contrabass;
-
-		ofImage background;
-		ofImage fakeStage;
-
-		ofImage mCenter;
-		ofImage mLeft1;
-		ofImage mLeft2;
-		ofImage mRight1;
-		ofImage mRight2;
-
-		ofImage orchestraBg;
-
-		/////////////
-
-		int oldalpha;
-		int newalpha;
-
-		bool raisingArms;
-
-		bool showPos_Head = false;
-		bool showPos_LHand_Shoulder = false;
-		bool showAngle_Arm_Forearm = false;
-		bool showAngle_Arm_Spine = false;
-		bool showPos_Neck_Hip = false;
-
-		ofSoundPlayer  synth;
+		ofImage ironman;
+		ofImage hulk;
+		ofImage spider;
+		ofImage thor;
 
 
-		int readyforplay;
+
+
+
 };
