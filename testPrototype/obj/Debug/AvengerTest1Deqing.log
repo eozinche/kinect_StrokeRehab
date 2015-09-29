@@ -1,4 +1,4 @@
-﻿Build started 9/15/2015 3:57:43 PM.
+﻿Build started 9/23/2015 9:14:17 PM.
      1>Project "C:\Users\eozinche\Desktop\openFrameworks-VS2013\apps\myApps\testPrototype\AvengerTest1Deqing.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (obj\Debug\) contains files shared from another project (AvengerComic.vcxproj, AvengerTest1Deqing.vcxproj, Test3.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
@@ -33,4 +33,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.63
+Time Elapsed 00:00:03.42

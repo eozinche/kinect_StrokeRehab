@@ -44,9 +44,10 @@ void ofApp::setup(){
 	contrabass.loadImage("contrabass.jpg");
 	
 	background.loadImage("background3.png");
+	fakeStage.loadImage("fakeStage1.png");
+
 	//background.loadImage("background2.jpg");
 	//fakeStage.loadImage("fakeStage.jpg");
-	fakeStage.loadImage("fakeStage1.png");
 
 	mCenter.loadImage("1_center.png");
 	mLeft1.loadImage("1_left.png");
@@ -115,7 +116,6 @@ void ofApp::draw(){
 
     fakeStage.draw(0, 0, ofGetWindowWidth(), ofGetWindowHeight());
 	//background.draw(0, 0, ofGetWindowWidth(), ofGetWindowHeight());
-
 	//orchestraBg.draw(0, 0, ofGetWindowWidth(), ofGetWindowHeight()-100);
 
 	//kinect.draw(0, 0);
@@ -194,8 +194,6 @@ void ofApp::draw(){
 				ofVec3f neck_hip = spinebase_pos - neck_pos;	// this is a vector point from neck_pos to spinebase_pos
 
 
-
-
 				ofVec3f right_hand_elbow = right_hand_pos - elbow_right_pos;	// this is a vector point from shoulder to hand
 				ofVec3f left_hand_elbow = left_hand_pos - elbow_left_pos;	// this is a vector point from shoulder to hand
 
@@ -206,18 +204,11 @@ void ofApp::draw(){
 				ofVec3f right_shoulder_L_R = shoulderleft_pos - shoulderright_pos;	// this is a vector point from shoulder to hand
 
 
-
-
-
 				float left_angle_hand_shoulder_with_neck_hip = left_hand_shoulder.angle(neck_hip);
 				float right_angle_hand_shoulder_with_neck_hip = right_hand_shoulder.angle(neck_hip);
 
 				float left_angle_elbow_shoulder_with_neck_hip = left_elbow_shoulder.angle(neck_hip);
 				float right_angle_elbow_shoulder_with_neck_hip = right_elbow_shoulder.angle(neck_hip);
-
-
-
-
 
 
 				float left_shoulder_hand_elbow_with_left_hand_pos = left_hand_elbow.angle(left_shoulder_elbow);
@@ -466,7 +457,7 @@ void ofApp::draw(){
 void ofApp::keyPressed(int key){
 
 	switch (key) {
-	case 49:
+	case 49:  // key 1
 		showPos_Head = true;
 		showPos_LHand_Shoulder = false;
 		showAngle_Arm_Forearm = false;
@@ -475,7 +466,7 @@ void ofApp::keyPressed(int key){
 		synth.stop();
 		break;
 		
-	case 50:
+	case 50:  // key 2
 		showPos_Head = false;
 		showPos_LHand_Shoulder = true;
 		showAngle_Arm_Forearm = false;
@@ -484,7 +475,7 @@ void ofApp::keyPressed(int key){
 		synth.play();
 		break;
 		
-	case 51:		
+	case 51:  // key 3	
 		showPos_Head = false;
 		showPos_LHand_Shoulder = false;
 		showAngle_Arm_Forearm = true;
@@ -492,7 +483,7 @@ void ofApp::keyPressed(int key){
 		showPos_Neck_Hip = false;
 		break;
 		
-	case 52:
+	case 52: // key 4
 		showPos_Head = false;
 		showPos_LHand_Shoulder = false;
 		showAngle_Arm_Forearm = false;
